@@ -1,0 +1,112 @@
+body {
+    background-color: #f6f6f6;
+}
+
+h1 {
+    font-family: Fascinate Inline,system-ui;
+    font-size: 40px;
+    text-decoration: overline;
+    color: #193842;
+    text-shadow: 2px 2px #78d1e5;
+      }
+      
+h2, h3, p {
+    font-family: "Quicksand", sans-serif;
+    font-weight:lighter;
+}      
+
+
+/*home */
+
+main {
+    margin: 8px 230px 8px 230px;
+    padding: 10px;
+}
+
+.work {
+    text-align: center;
+}
+
+.ed {
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+.fp {
+    text-align: center;
+}
+
+
+
+.home {
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255 /0.5);
+}
+
+
+
+
+/*footer */
+footer {
+    background: #c2edfc;
+    color: #193842;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*link*/
+
+a {
+    color: #3b4e5c;
+}
+
+a:hover {
+    color:#faac2f;
+    text-decoration: none;
+}
+
+
+/*btn*/
+.btn {
+    background: #0e90ad;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+
+.socials {
+    list-style-type:circle;
+    padding: 0;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+    text-align: center;}
+
+
+.project-item img {
+width: 300px;
+margin-right: 10px;
+}
+
+
+.r-section {
+    margin-bottom: 30px;
+}
+
+.r-section h2 {
+    border-bottom: 2px dashed #0e90ad;
+
+}
